@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="Description" content "Iran Medical Tourism is a site for helping peopole to medical services such as beauty,heart,skin and hair,organ transplants,mother and child,obstetrics and gynecology"/>
+	<meta name="Keywords" content="medical,beauty,hair,heart,skin,iran,organ transplants"/>
+	<meta name="google-site-verification"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="introduce-shiraz.css"/>
+	<title>Iran Medical Tourism</title>
+
+</head>
+
+<body id="body">
+	<div id="page">
+		<div id="header-main">
+			<div id="header-main">
+				<div id="header">
+					<img src="images/bg-shirazcity.png" style="width: 100%;height: 380px;align-content: center;"/>
+				</div>
+			</div>
+		</div>
+		<!--end header-->
+		<div id="content">
+			<div id="menu">
+				<input type="checkbox" id="nav"/><label for="nav">Menu</label>
+				<div id="content-title">
+					<h5>Welcome To Medical Tourism In Iran</h5>
+					<h6>(In Shiraz)</h6>
+				</div>
+				<ul id="list-menu">
+					<li id="home"><a href="../index.php"><span class="fa fa-home">Home</span></a>
+					</li>
+					<li><a href="#"><span class="fa fa-asl-interpreting"></span>Shiraz Medical Capacities</a>
+						<ul>
+							<li><a href="introduce-shiraz.php"/>Introduction to Shiraz</a>
+							</li>
+							<li><a href="fars-attractions.php">Fars Tourist Attractions</a>
+							</li>
+							<li><a href="Hospital/Hospitals.php">Hospitals</a>
+							</li>
+							<li><a href="Hospital/Health-Centers.php">Health Centers</a>
+							</li>
+							<li><a href="#">Professional Beauty Clinics</a>
+							</li>
+							<li><a href="#">Dental Clinics</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="fa fa-heartbeat"></span>Medical Centers</a>
+						<ul>
+							<li><a href="../Medical Centers/Eye treatment/eye-treatment.php">Eye treatment</a>
+							</li>
+							<li><a href="#">Orthopedic</a>
+							</li>
+							<li><a href="../Medical Centers/Hearth Treatment/hearth-treatment.php">Heart treatment</a>
+							</li>
+							<li><a href="#">ِDentistry</a>
+							</li>
+							<li><a href="../Medical Centers/Obstetrics and Gynecology/Obstetrics-Gynecology.php">Obstetrics and Gynecology</a>
+							</li>
+							<li><a href="#">Introducing Physicians</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="fa fa-heart-o"></span>Beauty_Hair _Skin Services</a>
+						<ul>
+							<li><a href="../Beauty_Hair _Skin Services/Beauty-Hair-Skin Clinic/Beauty-Hair-Skin.php">Beauty_Skin_Beauty Clinic</a>
+							</li>
+							<li><a href="#">Planting Personnel</a>
+							</li>
+							<li><a href="#">Beautiful Personnel</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="fa fa-cc-visa"></span>Visa and Tickets</a>
+						<ul>
+							<li><a href="#">Visa Services</a>
+							</li>
+							<li><a href="#">Ticket Reservation</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="fa fa-bank"></span>Reservations Residential Centers</a>
+						<ul>
+							<li><a href="#">Hotel</a>
+							</li>
+							<li><a href="#">Passenger House</a>
+							</li>
+							<li><a href="#">Local Tourism</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span class="fa fa-taxi"></span>Transfer</a>
+						<ul>/
+							<li><a href="#">Classic</a>
+							</li>
+							<li><a href="#">Modern</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="text-content">
+				<br/>Internal and foreign tourists come from nearby and near Shiraz and come to visit these gardens. Today there are more than fifty historical gardens in Shiraz, some of which have been demolished or altered, but some gardens still live and each day increase their reputation.
+				<h4>Different aspects of tourism in Shiraz</h4> Tourism in Shiraz is not just about visiting the various historical attractions and architecture of this city and there are several aspects that we will continue to explore.<br/>
+				<b>Health and health aspects:</b> One of the important aspects of tourism in Shiraz is the health tourism and health tourism. Shiraz has been recognized as one of the major cities of health tourism in Iran and the Middle East for decades, and many have traveled to Shiraz for medical knowledge and health facilities in the city. Dozens of well-equipped specialist and specialized hospitals in the areas of organ transplantation, in particular the kidneys, liver, pancreas and bone marrow, chemotherapy, cosmetic surgery, heart disease, eye surgery, cardiopulmonary surgery, orthopedic and hip and knee replacement , Treatment of infertility, and performing IVF, hair transplantation and ... Shiraz has become a medical and health resort in Iran.<br/>
+				<b>Educational and scientific aspects:</b> The renowned universities and professors in various fields of science and education, along with the presence of large industries and factories, and holding conferences and scientific conferences, have made Shiraz scientifically an attractive option for scientific and educational tourism Take into account.<br/>
+				<b>Exhibit aspect:</b> The largest exhibition in the south of the country-the Shiraz International Exhibition-in Shiraz, which has the potential to host various international and domestic exhibitions, has made this city one of the best cities in Iran to introduce various goods and services. <br/>
+				<b>Cultural and artistic aspects: </b>Shiraz is a city of art culture, and it is not surprising that this area can attract many tourists from this aspect. The days of commemoration of the city of Shiraz, the days of Sa'di (May 1) and Hafez (October 20th) are one of the most important cultural and artistic events held in the city. Various concerts, Shiraz Photo Festival, numerous galleries and galleries, dry river graffiti and ... It has made the city a cultural and artistic alternative to tourism.<br/>
+				<b>Commercial and shopping aspect: </b>One of the most significant aspects of tourism and business in Shiraz is the numerous traditional and modern shopping centers in the city. In Shiraz, you can go to the traditional market of lawyers, the Mesgarah market, the Moshir Cultural Center, the Persian Gulf Trade Complex, one of the largest commercial complexes in Iran, the Zaytoum Fars Complex, Fars Star Complex, the streets of the streets of Karim Khan Zand and Qasr Odasht. Have a range of options for purchasing various brands and gadgets. Of course, surfing in these complexes is not limited to shopping, and parts such as sports halls, playgrounds, coffee shops, restaurants, etc ... multiply the circulation attractions in these centers.<br/>
+				<center><img src="images/aspect_shiraz.jpg" style="width:72%;height:200px;margin-top: 20px;margin-bottom: 50px;"/>
+				</center>
+			</div>
+		</div>
+		<center>
+			<div id="footer" style="width:100%;height:auto;margin-bottom: 2px;color:white;background-color: #3E5D68;font-size:14px;">All rights reserved.</div>
+		</center>
+	</div>
+</body>
+
+</html>

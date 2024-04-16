@@ -1,0 +1,246 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#body {
+	background-image: url(images/bgg.jpg);
+	background-size: cover;
+}
+#page {
+	justify-content: center;
+	margin: 0px 40px 50px 40px;
+	padding: 0px;
+	color: red;
+	direction: ltr;
+}
+#header {
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+#header-main {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+#content {
+	height: auto;
+	width: 100%;
+	background-color: rgba(128,213,242,0.5);
+	margin-top: 23px;
+	padding-bottom: 50px;
+}
+#menu {
+	width: 100%;
+	height: auto;
+	background-color: rgba(10,48,56,0.80);
+	display: block;
+	visibility: visible;
+	position: relative;
+}
+#list-menu {
+	width: 100%;
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
+}
+#list-menu>li {
+	float: left;
+	list-style: none;
+	width: auto;
+	height: 40px;
+	line-height: 22px;
+	padding: 0px;
+	margin: 2px 1px 2px 1px;
+	text-align: left;
+	position: relative;
+	background-color: rgba(10,48,56,0.90);
+	box-shadow: 0px 2px 5px 0px green;
+	background: linear-gradient(darked 50%, black 50%);
+}
+#list-menu li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+#list-menu li:hover {
+	background-color: rgba(19,99,116,0.70);
+}
+#menu>list-menu>li:nth-of-type(1) {
+	border-redius: 5px 0px 0px 5px;
+}
+#menu>list-menu>li:nth-of-type(5) {
+	border-redius: 0px 5px 5px 0px;
+}
+#list-menu ul {
+	position: absolute;
+	display: none;
+	min-width: 200px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 0.5px solid green;
+	background-color: rgba(10,48,56,0.75);
+	margin-top: 15px;
+}
+#list-menu ul li {
+	display: block;
+	float: none;
+	margin-bottom: 8px;
+	padding: 2px 6px 6px 2px;
+	background-color: rgba(10,48,56,0.80);
+	box-shadow: 0px 2px 5px 0px green;
+	background: linear-gradient(darked 50%, black 50%);
+}
+#list-menu li:hover ul {
+	display: block;
+}
+#list-menu li a:hover {
+	font-weight: 16px;
+	border-bottom: 2px solid green;
+}
+#list-menu ul a {
+	font-size: 14px;
+}
+home {
+	border: 0.5 solid #02251F;
+}
+.fa {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+[type="checkbox"], label {
+	display: none;
+}
+#content-title {
+	display: none;
+}
+#menu-title {
+	display: none;
+}
+#text-content {
+	width: 80%;
+	height: auto;
+	color: #053122;
+	text-align: justify;
+	padding-right: 60px;
+	padding-left: 60px;
+	font-size: 15px;
+	margin-right:55px;
+	margin-left:55px;
+	background-color: rgba(128,213,242,0.9);
+}
+
+@media(max-width:650px) {
+#header {
+	display: none;
+}
+#header-main {
+	height: 100px;
+	margin-bottom: 5px;
+	background-image: url(images/images.jpg);
+	background-size: 100% 100px;
+	background-repeat: no-repeat;
+}
+#content {
+	margin-top: 5px;
+	width:98%;
+	font-size: 10px;
+}
+#page {
+	margin: 0px 20px 30px 20px;
+}
+#menu {
+	height: 60px;
+}
+#list-menu>li {
+	width: 100%;
+	height: auto;
+	float: none;
+	background-color: rgba(10,48,56,0.99);
+	display: block;
+}
+#list-menu li a {
+	border-bottom: none;
+	font-size: 14px;
+	height: 30px;
+}
+#list-menu li:hover ul {
+	display: static;
+	box-shadow: none;
+	background: none;
+	border-bottom: none;
+}
+#list-menu li:hover a {
+	border-bottom: none;
+	height: 25px;
+}
+#list-menu li a {
+	width: 99%;
+	display: block;
+}
+#list-menu li ul {
+	position: static;
+}
+#list-menu ul li {
+	box-shadow: none;
+	min-width: 50px;
+	height: 25px;
+}
+#list-menu ul {
+	min-width: 50px;
+}
+#list-menu {
+	display: none;
+	width: 100%;
+	margin-top: 0px;
+}
+label {
+	display: block;
+	background: rgba(10,48,56,0.99);
+	width: 40px;
+	height: 60px;
+	cursor: pointer;
+	position: absolute;
+	right: 3px;
+	top: 0px;
+	color: grey;
+	font-size: 15px;
+}
+label:after {
+	content: '';
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #777;
+	margin: 7px 5px;
+	margin-bottom: 100px;
+	box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+}
+[type="checkbox"]:checked ~ #list-menu {
+	display: block;
+	z-index: 9999;
+	position: absolute;
+}
+#text-content {
+	width: 60%;
+	padding-right: 2px;
+	font-size: 10px;
+	padding-right: 20px;
+}
+#title-menu {
+	margin-bottom: 12px;
+}
+#list-menu li:hover {
+	background-color: rgba(19,99,116,0.98);
+}
+#list-menu {
+	margin-top: 5px;
+	padding: 0px;
+}
+}
+
+@media(max-width:300px) {
+#list-menu {
+	margin-top: -10px;
+}
+}/* CSS Document */
