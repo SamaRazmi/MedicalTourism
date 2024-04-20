@@ -1,0 +1,59 @@
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: url(images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#page {
+	justify-content: center;
+	margin: 0px 130px 50px 100px;
+	padding: 0px;
+	color: #0F131C;
+	direction: ltr;
+}
+#content {
+	height: auto;
+	width: 95%;
+	background-color: rgba(197,218,221,0.70);
+	margin-top: 23px;
+	justify-content: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	text-align: justify;
+}
+#table td ,th{
+	font:14px;
+    text-align: left;
+}
+#table {
+	width: 92%;
+	justify-content: left;
+	color:#042E31;
+	cellpadding:2px;
+    cellspacing:20px;
+	margin-left:50px;
+	margin-right: 50px;
+	height:150px;
+	margin-top:20px;
+	margin-bottom: 100px;
+	font-size: 14px;
+	background-color: rgba(171,211,216,0.92);
+}
+#table td,th,tr{
+	border-left:0px;
+	border-top:0px;
+	border-collapse: collapse;
+	padding:25px;
+	border-right-color: aquamarine;
+}
+#table th{
+		background-color: rgba(145,198,205,0.92);
+}
